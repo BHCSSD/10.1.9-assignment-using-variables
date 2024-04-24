@@ -49,7 +49,7 @@ As a reminder, we did some simple math in an in-class example
 1. ## Set up the Variables
 - Store the names of all of your Day 1 teachers in four separate variables called teacher1, teacher2, teacher3 and teacher4.
   - Remember that words, in this case the teacher names, must be indicated in “double quotes”.
-Store the names of all the courses in variables called course1, course2, course3, and course4.  
+Store the names of all the courses in variables called `course1`, `course2`, `course3`, and `course4`.  
 - Tech Moment: Words are stored as a data type known as String.
 
 Did you do this right?  You should now have **8 separate** variables, each with words already stored in them.
