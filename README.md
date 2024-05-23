@@ -2,7 +2,7 @@
 
 ## Working with Basic Variables
  
-Be sure to run each part before moving on to the next.  As you go, add comments that give a title to each activity.
+Be sure to run each part before moving on to the next. As you go, add comments that give a title to each activity.
 
 
 ## Set Up
@@ -18,7 +18,7 @@ The room is about 29 feet wide, 37 feet long and 12 feet high. To do this, follo
 
 
 1.  ## Set up the dimensions of the room
-  - Create three variables called w, l and h to store the width, length and height.
+  - Create three variables called w, l, and h to store the width, length, and height.
      - (Note: the words `width` and `height` are reserved words in P5 that store the size of the canvas so you need to use `w` and `h` instead.)
 - Tech Moment: We will be working with whole numbers for this part. Remember that whole numbers are stored as a data type known as Integer.
 Store the numbers in the variables as described in the paragraph above.  
@@ -41,13 +41,13 @@ As a reminder, we did some simple math in an in-class example
 
 # Part 2: Time Table - Using String Variables (50%)
 
-- Before moving on to part 2, fix your indenting to line everything up properly.  There is an auto-indent in Replit that will usually help with this. ctrl + s
+- Before moving on to part 2, fix your indenting to line everything up properly.
 - Add a comment to your code to give this section of code a title. I recommend using a format such as:  `//*********************** Part 2 - Timetable *******************`
-- Your task will be to create a day 1 class timetable using variables to store the teacher names and their courses.  To do this, follow  the steps below.
+- Your task will be to create your class timetable using variables to store the teacher names and their courses. To do this, follow  the steps below.
 
 
 1. ## Set up the Variables
-- Store the names of all of your Day 1 teachers in four separate variables called teacher1, teacher2, teacher3 and teacher4.
+- Store the names of all of your teachers in four separate variables called teacher1, teacher2, teacher, and teacher4.
   - Remember that words, in this case the teacher names, must be indicated in “double quotes”.
 Store the names of all the courses in variables called `course1`, `course2`, `course3`, and `course4`.  
 - Tech Moment: Words are stored as a data type known as String.
@@ -55,12 +55,12 @@ Store the names of all the courses in variables called `course1`, `course2`, `co
 Did you do this right?  You should now have **8 separate** variables, each with words already stored in them.
 
 2. ## Draw the timetable
-- Using lines and/or rectangles, you will set up a grid for a 1 semester time table.  This will essentially be a 2x5 table (or something similar)
+- Using lines and/or rectangles, you will set up a grid for a 1 semester timetable.  This will essentially be a 2x5 table (or something similar)
 - Create a rectangle with a black stroke and an orange fill.  The size and location are up to you but be sure to it big enough to fit in your timetable
 - Change your stroke to black and then draw lines to create the grid within your rectangle. 
 colours are optional
 
-3. ## Use text() statements that use the above variables to print out the information into the time table. One possible layout is the following: 
+3. ## Use text() statements that use the above variables to print out the information into the timetable. One possible layout is the following: 
 |  | Class |
 | ----------- | ----------- |
 | Block 1 | Calm |
@@ -74,8 +74,8 @@ Did you do this right?  The words “Block 1” are not stored in a variable so 
 
 # Part 3 - Final 10 %
 
-- Before moving on to part 3, fix your indenting to line everything up properly.  
--Add a comment to your code to give this section of code a title. I recommend using a format such as:  `//*********************** Part 3 - Final 10% MOD *******************`
+- Before moving on to part 3, fix your indenting to line everything up properly.
+- Add a comment to your code to give this section of code a title. I recommend using a format such as:  `//*********************** Part 3 - Final 10% MOD *******************`
 
 
 ## Have you ever heard of the math operator called `MOD`?  
@@ -84,6 +84,8 @@ Did you do this right?  The words “Block 1” are not stored in a variable so 
   -  8 % 2 = 0
   -  8 % 3 = 2
   -  8 % 5 = 3
+
+Learn about modulo [here](https://www.freecodecamp.org/news/javascript-modulo-operator-how-to-use-the-modulus-in-js/)
 
 Here is the challenge.  If I ran a race for 252 seconds, how many minutes and how many seconds did it take me. 
 1. ## Use the divide and the MOD operator and print out the results in some way below your table.
